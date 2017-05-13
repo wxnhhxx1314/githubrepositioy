@@ -8,6 +8,7 @@
 \usepackage{dsfont}
 \usepackage{float}
 \usepackage{cite}
+\usepackage{epstopdf}
 \usepackage{subcaption}
 \usepackage{multirow}
 \ifCLASSINFOpdf
@@ -32,8 +33,7 @@
         and~Peng~Zhang.~\IEEEmembership{}% <-this % stops a space
 \thanks{Lingfeng liu, Xiaonan Wang and Zhang Peng are with the Signal Information Engineering school, East China
 Jiaotong University, China, e-mail: lingf.liu@gmail.com.}% <-this % stops a space
-\thanks{This work is supported by the Natural Science Foundation of China (NSFC) under grant No. 81460275.}% <-this %
-stops a space
+\thanks{This work is supported by the Natural Science Foundation of China (NSFC) under grant No. 81460275.}
 \thanks{Manuscript submitted July 4, 2017.}}
 
 
@@ -61,11 +61,11 @@ IFA, MIFA, printed dipole, horizontal polarization, vertical polarization, Body 
 
 \section{Introduction}
 \IEEEPARstart{R}{cent} years, wireless body area networks (WBANs) have drawn great interest for design and optimization
-of ulta-low powered wearable communication devices in healthcare and medical applications. Due to the complexity of the body, propagation along and around the body show distinct decaying and variation patterns. The complex body coupling and scattering effects  bring challenges in the design of miniature on-body antennas. Several papers have been written to show the impacts of dialetric human tissues to the radiation efficiency, return loss, resonant frequency, and the radiation pattern of on-body antennas \cite{1, 2}. Characteristics of antennas and on-body channels have been widely studied \cite{3}-\cite{6}. For realistic wearable on-body communications in the other aspects, the antennas are often mounted on the torso or limbs to obtain optimal performance, as shown by study in \cite{7}. Studies as \cite{8, 9} also reveal the possibility to explore the polarization spatial diversity in on-body channels to improve the performance of e.g. relaying and Multi-Input Multi-Output (MIMO) in WBANs.
+of ultra-low powered wearable communication devices in healthcare and medical applications. Due to the complexity of the body, propagation along and around the body show distinct decaying and variation patterns. The complex body coupling and scattering effects bring challenges in the design of miniature on-body antennas. Several papers have been written to show the impacts of dielectric human tissues to the radiation efficiency, return loss, resonant frequency, and the radiation pattern of on-body antennas \cite{1, 2}. Characteristics of antennas and on-body channels have been widely studied \cite{3}-\cite{6}. For realistic wearable on-body communications in the other aspects, the antennas are often mounted on the torso or limbs to obtain optimal performance, as shown by study in \cite{7}. Studies as \cite{8, 9} also reveal the possibility to explore the polarization spatial diversity in on-body channels to improve the performance of e.g. relaying and Multi-Input Multi-Output (MIMO) in wireless body area networks (WBANs).
 
 On-body channels show great spatial with respect to the placements of the antennas and polarization selectivity with respect to the orientation of the antennas both on static and dynamic bodies \cite{10, 11}. Recent researches in the design of on-body matched antennas cover several factors including size reduction, bending capability, bandwidth requirements, specific absorption rate (SAR) evaluation, biocompatibility, radiation, and body coupling effects \cite{12}. It calls for on-body antenna optimization to obtain the channel polarization gain or polarization diversity, to further lower the power consumption, or to reduce the link loss \cite{13}. For optimization design of multi-polarization antennas, we should consider how to design the antenna to ensure every polarization component can achieve better channel, and to investigate the antenna's radiation gain. Before analyzing any complex polarization antennas, it is necessary to understand the basic antenna polarization performance via e.g. linearly polarized antennas.
 
-There are some researches analyzing the antenna performance close to the human body, e.g., \cite{14}-\cite{16}. The design of on-body antennas usually undergoes two problems. First, while most of the on-body antennas are integrated in the garment or attached to the skin \cite{17, 18}, the human body may exert complex electromagnetic impacts to the antenna's performance \cite{19, 20}. Second, even the human body is included during the design of the on-body antennas, the placement variation of the antennas can deeply affect the actual polarization performance of the on-body antennas, including the distance and orientation of the antennas to the skin, and the part of the body, e.g. head, torso and limbs, the antennas located. 
+There are some researches analyzing the antenna performance close to the human body, e.g., \cite{14}-\cite{16}. The design of on-body antennas usually undergoes two problems. First, while most of the on-body antennas are integrated in the garment or attached to the skin \cite{17, 18}, the human body may exert complex electromagnetic impacts to the antenna's performance \cite{19, 20}. Second, even the human body is included during the design of the on-body antennas, the placement variation of the antennas can deeply affect the actual polarization performance of the on-body antennas, including the distance and orientation of the antennas to the skin, and the part of the body, e.g. head, torso and limbs, the antennas located.
 
 As a result, the focus of this study is to investigate the impacts of the orientation and placement to the performance of linearly polarized antennas mounted on the torso of static human body.  We introduce three compact types of linearly polarized antennas designed at 2.4 GHz placed on the surface of the torso. A simplified three-layered human chest model is applied. The antenna performance include return loss, bandwidth and radiation pattern are investigated and compared at various antenna-skin distances and at different orientation of the antennas relative to the skin.
 
@@ -73,7 +73,7 @@ This paper is divided into five parts. Section \ref{sec:antenna_design} introduc
 linearly polarized antennas. Section \ref{sec:body_model} presents the layered human chest model. Section \ref{sec:analysis} analyzes the polarization performance of the antennas. And finally, summaries are concluded in section \ref{sec:conclusion}.
 
 \section{Antenna design}
-There are three types of linearly polarized microstrip antennas designed and investigated in the study, which are the inverted-F antenna (IFA), MIFA and printed dipole antennas. The selected antennas are in compact shape, simple structure, low production costs, and relatively easy to get matched. The structures \cite{21} and initial geometry values of the antennas are summarized in Fig. \ref{fig:1} and Tab. \ref{tab:1}. All the antennas are fabricated on PCB and operates in the 2.4 GHz ISM band with center frequency of 2.45 GHz. The dielectric layer is made of FR4 with $\epsilon_{r}$=4.4 \cite{22}. The antenna is simulated by Ansoft HFSS 13.0$^{\textcircled{R}}$. The antennas are firstly optimized in free space by tuning their resonant frequency to 2.45 GHz. The structure and performance of the optimized antennas are summarized in Fig. \ref{fig:2} and table \ref{tab:ant_optimized}.
+There are three types of linearly polarized microstrip antennas designed and investigated in the study, which are the inverted-F antenna (IFA), meandered inverted-F antenna (MIFA) and printed dipole antennas. The selected antennas are in compact shape, simple structure, low production costs, and relatively easy to get matched. The structures \cite{21} and initial geometry values of the antennas are summarized in Fig. \ref{fig:1} and Tab. \ref{tab:1}. All the antennas are fabricated on PCB and operates in the 2.4 GHz ISM band with center frequency of 2.45 GHz. The dielectric layer is made of FR4 with $\epsilon_{r}$=4.4 \cite{22}. The antenna is simulated by Ansoft HFSS 13.0$^{\textcircled{R}}$. The antennas are firstly optimized in free space by tuning their resonant frequency to 2.45 GHz. The structure and performance of the optimized antennas are summarized in Fig. \ref{fig:2} and table \ref{tab:ant_optimized}.
 
 \begin{figure}[!htb]
 \centering
@@ -172,7 +172,7 @@ interference in the analysis.
 \centering
 \includegraphics[width=0.4\textwidth]{figs/4.eps}
 \caption{Layer chest modeling}
-\label{fig:4}	
+\label{fig:3}	
 \end{figure}
 
 \begin{figure}[!htb]
@@ -180,20 +180,20 @@ interference in the analysis.
 \begin{subfigure}[b]{0.24\textwidth}
 \includegraphics[width=\textwidth]{figs/3a.eps}
 \caption{Horizontal polarization}
-\label{fig:3a}	
+\label{fig:4a}	
 \end{subfigure}		
 \begin{subfigure}[b]{0.24\textwidth}
 \includegraphics[width=\textwidth]{figs/3b.eps}
 \caption{Vertical polarization}
-\label{fig:3b}
+\label{fig:4b}
 \end{subfigure}
-\begin{subfigure}[b]{0.24\textwidth}
+\begin{subfigure}[b]{0.35\textwidth}
 \includegraphics[width=\textwidth]{figs/3c.eps}
 \caption{Definition of antenna and body surface distance}
-\label{fig:3c}
+\label{fig:4c}
 \end{subfigure}
 \caption{Polarization and geometry definition}
-\label{fig:3}
+\label{fig:4}
 \end{figure}
 
 We focus on the chest part of the torso, whose structure can be approximated as a cuboid composed of three-layered
@@ -225,10 +225,10 @@ Fat&10.8206&0.2680\\
 \section{Analysis of antenna polarization performance}
 The focus of this paper is to observe the antenna performance after loading human by changing the antenna placement.
 The distance between the antenna and human body surface, denoted as ($d$), is an important factor of antenna performance. We
-summarize the variation of return loss, denoted as $S_{11}$, and bandwidth, denoted as $B$, in the range of 0.5 cm$<$d$<$6 cm, compare the antenna polarization performance on E-Plane and H-Plane under vertical and horizontal polarization as well based on the gain difference of the antenna in free space and after loading the body model.
+summarize the variation of return loss, denoted as $S_{11}$, and bandwidth, denoted as $B$, in the range of $0.5 cm<$$d$$<6 cm$, compare the antenna polarization performance on E-Plane and H-Plane under vertical and horizontal polarization as well based on the gain difference of the antenna in free space and after loading the body model.
 
 \subsection{IFA}
-Fig. \ref{fig:5} shows the changes of antenna matching performance and bandwidth upon the $d$ variation. For horizontal polarization as depicted in Fig. \ref{fig:3a}, 0.4 GHz$<$B$<$0.52 GHz, when $d$= 2.5 cm, $B$ reaches the maximum. The bandwidth of vertical polarization depicted in Fig. \ref{fig:3b}. Due to the body coupling effect , when $d$=0.5 cm, the bandwidth is the narrowest, showing that the antenna is not suitable for placing on body surface at this distance. The result in Fig. \ref{fig:5b} shows great increase of the bandwidth when the distance between the antenna and body surface increase, which is described by linear approximation given in Eq. \ref{eq:eps_1}.
+Fig. \ref{fig:5} shows the changes of antenna matching performance and bandwidth upon the $d$ variation. For horizontal polarization as depicted in Fig. \ref{fig:3a}, $0.4 GHz<$$B$$<0.52 GHz$, when $d= 2.5 cm$, $B$ reaches the maximum. The bandwidth of vertical polarization depicted in Fig. \ref{fig:3b}. Due to the body coupling effect, when $d=0.5 cm$, the bandwidth is the narrowest, showing that the antenna is not suitable for placing on body surface at this distance. The result in Fig. \ref{fig:5b} shows great increase of the bandwidth when the distance between the antenna and body surface increase, which is described by linear approximation given in Eq. \ref{eq:eps_1}.
 
 \begin{equation}
 y[GHz] = 0.0628x [cm] + 0.1845,
@@ -283,15 +283,15 @@ y[GHz] = 0.0628x [cm] + 0.1845,
 \caption{H-plane}
 \label{fig:6f}	
 \end{subfigure}
-\caption{IFA: Comparison of gain pattern of horizontal polarization and vertical polarization of $d$}.
-$S^2= \frac{\sum_{d=1}^n{({G_b-G})^2}}{n}$ (d=1 cm, 2 cm, 4 cm, 6 cm) }
+\caption{IFA: Comparison of gain pattern of horizontal polarization and vertical polarization of $d$,
+$S^2= \frac{\sum_{d=1}^n{({G_b-G})^2}}{n}$ ($d=1 cm, 2 cm, 4 cm, 6 cm$)}
 \label{fig:6}
 \end{figure}
 
 In horizontal polarization, the $S_{11}$ of the antenna decreases as $d$ increases. Consequently, the best antenna matching, i.e. the smallest $S_{11}$, is reached at $d=5 cm$.
-In vertical polarization, $S_{11}$ shows unimodal distribution for 0.5 cm$<$d$<$4 cm, where its minimal value is observed at $d= 1.5 cm$.
+In vertical polarization, $S_{11}$ have significant changes with d variation for $0 cm<$$d$$<3 cm$, where its minimal value is observed at $d= 1.5 cm$.
 
-In ranges 0.5 cm$<$d$<$1.2 cm and $d$$>$2 cm, the horizontal polarization of $S_{11}$ is always smaller than vertical polarization. It indicates that within these ranges, the IFA antenna in horizontal polarization will achieve better performance than in vertical polarization.
+In ranges $0.5 cm<$$d$$<1.2 cm$ and $d$$>$2 cm, the horizontal polarization of $S_{11}$ is always smaller than vertical polarization. It indicates that within these ranges, the IFA antenna in horizontal polarization will achieve better performance than in vertical polarization.
 
 \begin{figure}[!htb]
 \centering
@@ -301,12 +301,12 @@ In ranges 0.5 cm$<$d$<$1.2 cm and $d$$>$2 cm, the horizontal polarization of $S_
 \label{fig:7a}	
 \end{subfigure}
 \begin{subfigure}[b]{0.24\textwidth}
-\includegraphics[width=\textwidth]{figs/7c.eps}
+\includegraphics[width=\textwidth]{figs/7b.eps}
 \caption{H-plane}
 \label{fig:7c}	
 \end{subfigure}		
 \begin{subfigure}[b]{0.23\textwidth}
-\includegraphics[width=\textwidth]{figs/7b.eps}
+\includegraphics[width=\textwidth]{figs/7c.eps}
 \caption{Differential gain of E-plane }
 \label{fig:7b}
 \end{subfigure}
@@ -340,8 +340,7 @@ body has great effects on antenna gain pattern, when $\varphi$=$17\,^{\circ}$, $
 maximum and human body has the most obvious effects on antenna.
 
 \subsection{MIFA}
-\begin{figure}[!htb]
-\centering
+
 \begin{figure}[!htb]
 \centering
 \begin{subfigure}[b]{0.4\textwidth}
@@ -358,7 +357,7 @@ maximum and human body has the most obvious effects on antenna.
 \label{fig:8}
 \end{figure}
 
-For horizontal polarization, the effect of distance on bandwidth is not obvious. The bandwidth approximated by Eq. \ref{eq:eps_3}. When $d$=1.5 cm, the bandwidth is the narrowest, and the antenna is not suitable for placing on body surface. When $d$=0.5 cm and $d$=4 cm, $B$=225 GHz, reaching the maximum. When $d$=1 cm, the bandwidth of vertical polarization is the narrowest, so the antenna is not suitable for placing on human body surface.
+For horizontal polarization, the effect of distance on bandwidth is not obvious. The bandwidth approximated by Eq. \ref{eq:eps_3}. When $d=1.5 cm$, the bandwidth is the narrowest, and the antenna is not suitable for placing on body surface. When $d=0.5 cm$ and $d=4 cm$, $B$=225 GHz, reaching the maximum. When $d=1 cm$, the bandwidth of vertical polarization is the narrowest, so the antenna is not suitable for placing on human body surface.
 
  \begin{equation}
 \label{eq:eps_3}
@@ -388,12 +387,12 @@ y[dB]=2.02866x-16.01,  x[cm]
 \label{fig:9d}	
 \end{subfigure}
 \begin{subfigure}[b]{0.24\textwidth}
-\includegraphics[width=\textwidth]{figs/9e.eps}
+\includegraphics[width=\textwidth]{figs/9c.eps}
 \caption{Vertical polarization of H-plane}
 \label{fig:9e}	
 \end{subfigure}
 \begin{subfigure}[b]{0.24\textwidth}
-\includegraphics[width=\textwidth]{figs/9c.eps}
+\includegraphics[width=\textwidth]{figs/9e.eps}
 \caption{E-plane}
 \label{fig:9c}	
 \end{subfigure}
@@ -406,11 +405,11 @@ y[dB]=2.02866x-16.01,  x[cm]
 \label{fig:9}
 \end{figure}
 
-The equation of $S_{11}$ variation in vertical polarization is given in Eq. \ref{eq:eps_4}. The minimal $S_{11}$ of the MIFA antennas is observed at $d$= 5.5 cm and when $d$=0.5cm, $S_{11}$ take the maximum. The $S_{11}$ curve of horizontal polarization is flat and when $d$=4 cm, $B$ reaches the maximum, so the antenna is most suitable to place on human body surface.
+The equation of $S_{11}$ variation in vertical polarization is given in Eq. \ref{eq:eps_4}. The minimal $S_{11}$ of the MIFA antennas is observed at $d= 5.5 cm$ and when $d=0.5 cm$, $S_{11}$ take the maximum. The $S_{11}$ curve of horizontal polarization is flat and when $d=4 cm$, $B$ reaches the maximum, so the antenna is most suitable to place on human body surface.
 
-In the range of 1.5 cm$<$$d$$<$3 cm, $S_{11}$ of vertically polarized is always smaller than horizontal polarization, and the bandwidth is always wider than horizontal polarization. In this range, the antenna is more suitable for placing on the surface of the human body in vertically polarized.
+In the range of $1.5 cm<$$d$$<3 cm$, $S_{11}$ of vertically polarized is always smaller than horizontal polarization, and the bandwidth is always wider than horizontal polarization. In this range, the antenna is more suitable for placing on the surface of the human body in vertically polarized.
 
-In horizontal polarization, the standard deviation (STD) of the radiation gain are uniformly distributed as shown in Fig. \ref{fig:10}, showing insensitivity to $d$.
+In horizontal polarization, the $S^{2}$ of the radiation gain are uniformly distributed as shown in Fig. \ref{fig:10}, showing insensitivity to $d$.
 
 For E-plane pattern of vertical polarization, when $30\,^{\circ}$$<$$\varphi$$<$$150\,^{\circ}$, when $30\,^{\circ}$$<$$\varphi$$<$$150\,^{\circ}$, $S^{2}$$>$4, The gain difference at different distances is relatively large, the antenna direction gain is more sensitive to the distance factor than the other position.
 For H-plane pattern, when $130\,^{\circ}$$<$ $\varphi$$<$$180\,^{\circ}$, $0\,^{\circ}$$<$ $\varphi$$<$$30\,^{\circ}$, $225\,^{\circ}$$<$ $\varphi$$<$$240\,^{\circ}$, $330\,^{\circ}$$<$ $\varphi$$<$$360\,^{\circ}$, $S^{2}$$>$4, the antenna direction gain is more sensitive to the distance factor.
@@ -423,12 +422,12 @@ For H-plane pattern, when $130\,^{\circ}$$<$ $\varphi$$<$$180\,^{\circ}$, $0\,^{
 \label{fig:10a}	
 \end{subfigure}		
 \begin{subfigure}[b]{0.24\textwidth}
-\includegraphics[width=\textwidth]{figs/10c.eps}
+\includegraphics[width=\textwidth]{figs/10b.eps}
 \caption{H-plane}
 \label{fig:10c}	
 \end{subfigure}
 \begin{subfigure}[b]{0.24\textwidth}
-\includegraphics[width=\textwidth]{figs/10b.eps}
+\includegraphics[width=\textwidth]{figs/10c.eps}
 \caption{Differential gain of E-plane }
 \label{fig:10b}
 \end{subfigure}
@@ -442,7 +441,7 @@ For H-plane pattern, when $130\,^{\circ}$$<$ $\varphi$$<$$180\,^{\circ}$, $0\,^{
 \end{figure}
 
 Fig. \ref{fig:9} shows the radiation pattern of the antenna in free space and after loading body model. Horizontal
-polarization and vertical polarization were selected  $d$ = 5.5 cm and  $d$ = 4 cm respectively as the research focus. The antenna radiation  pattern of horizontal polarization and vertical polarization after loading human body model is symmetrically distributed with $\theta$=$0\,^{\circ}$ and $90\,^{\circ}$, respectively. The gain difference of horizontal polarization is described by Eq. \ref{eq:eps_5}.
+polarization and vertical polarization were selected  $d = 5.5 cm$ and  $d = 4 cm$ respectively as the research focus. The antenna radiation  pattern of horizontal polarization and vertical polarization after loading human body model is symmetrically distributed with $\theta$=$0\,^{\circ}$ and $90\,^{\circ}$, respectively. The gain difference of horizontal polarization is described by Eq. \ref{eq:eps_5}.
 
 \begin{equation}
 \label{eq:eps_5}
@@ -478,7 +477,7 @@ $145\,^{\circ}$$<$$\theta$$<$$230\,^{\circ}$, $\mid$$G_{b}$-$G_{f}$$\mid$ takes 
 
 Fig. \ref{fig:11} shows the changes of antenna matching performance and bandwidth of $d$. In horizontal polarization, the bandwidth of dipole antenna is described as Eq. \ref{eq:eps_6}. The minimal bandwidth is observed at $d$=1 cm and the antenna is not suitable for placing on body surface. In vertical polarization, the bandwidth variation curve is always smooth and the body has negligible effect on the antenna. It is approximated by Eq. \ref{eq:eps_7}.
 
-The $S_{11}$ as presented in Eq. \ref{eq:eps_7} shows consistent trends between antenna in vertical and in horizontal polarizations. The minimal $S_{11}$ of the dipole antenna is observed at $d$= 5.5 cm in horizontal polarization and at $d$=3 cm in vertical polarization. $S_{11}$ of horizontal polarization is always smaller than vertical polarization. When 0 cm$<$$d$$<$3 cm, the bandwidth of
+The $S_{11}$ as presented in Eq. \ref{eq:eps_7} shows consistent trends between antenna in vertical and in horizontal polarizations. The minimal $S_{11}$ of the dipole antenna is observed at $d= 5.5 cm$ in horizontal polarization and at $d=3 cm$ in vertical polarization. $S_{11}$ of horizontal polarization is always smaller than vertical polarization. When $0 cm<$$d$$<3 cm$, the bandwidth of
 vertical polarization is always greater than horizontal Polarization. Therefore, in this range of $d$, the antenna is
 more suitable for vertical polarization.
 
@@ -519,12 +518,12 @@ y[dB]=-3.4777x-12.723, x[cm]
 \label{fig:12b}
 \end{subfigure}
 \begin{subfigure}[b]{0.24\textwidth}
-\includegraphics[width=\textwidth]{figs/12e.eps}
+\includegraphics[width=\textwidth]{figs/12c.eps}
 \caption{Vertical polarization of H-plane}
 \label{fig:12e}	
 \end{subfigure}
 \begin{subfigure}[b]{0.24\textwidth}
-\includegraphics[width=\textwidth]{figs/12c.eps}
+\includegraphics[width=\textwidth]{figs/12e.eps}
 \caption{E-plane}
 \label{fig:12c}	
 \end{subfigure}
@@ -537,9 +536,7 @@ y[dB]=-3.4777x-12.723, x[cm]
 \label{fig:12}
 \end{figure}
 
-%TODO: change the variation of the radiation gain
-For horizontal polarization as shown in fig. \ref{fig:12a} and fig. \ref{fig:12d}. The variance of the radiation gain are uniformly distributed, showing insensitivity to $d$. In vertical polarization shown in fig. \ref{fig:12b} and fig. \ref{fig:12e}, at the position of $85\,^{\circ}$$<$$\varphi$$<$$90\,^{\circ}$, $120\,^{\circ}$$<$$\varphi$$<$$130\,^{\circ}$, $220\,^{\circ}$$<$$\varphi$$<$$230\,^{\circ}$, $S^{2}$$>$7, the
-difference of H-plane pattern of $d$ is relatively large, thus the antenna direction gain is more sensitive to $d$.
+For horizontal polarization as shown in fig. \ref{fig:12a} and fig. \ref{fig:12d}. The variance of the radiation gain are uniformly distributed, showing insensitivity to $d$. In vertical polarization shown in fig. \ref{fig:12b} and fig. \ref{fig:12e}, at the position of $85\,^{\circ}$$<$$\varphi$$<$$90\,^{\circ}$, $120\,^{\circ}$$<$$\varphi$$<$$130\,^{\circ}$, $220\,^{\circ}$$<$$\varphi$$<$$230\,^{\circ}$, $S^{2}$$>$7, the difference of H-plane pattern of $d$ is relatively large, thus the antenna direction gain is more sensitive to $d$.
 
 \begin{figure}[!htb]
 \centering
@@ -567,7 +564,7 @@ difference of H-plane pattern of $d$ is relatively large, thus the antenna direc
 \label{fig:13}
 \end{figure}
 
-Horizontal polarization and vertical polarization were selected $d$=5.5 cm and $d$=3 cm as the focus of research, respectively. The dipole antenna performance of this $d$ is better and antenna radiation orientation is more obvious than the other $d$, the maximum gain reached 5 dB.
+Horizontal polarization and vertical polarization were selected $d=5.5 cm$ and $d=3 cm$ as the focus of research, respectively. The dipole antenna performance of this $d$ is better and antenna radiation orientation is more obvious than the other $d$, the maximum gain reached 5 dB.
 
 E-plane radiation pattern of horizontal polarization and vertical polarization after loading body model are symmetrical distribution of $\theta$=$0\,^{\circ}$ and $\theta$=$90\,^{\circ}$ as shown in Fig. \ref{fig:13}. E-plane pattern of vertical polarization after loading the human body is close to omnidirectional distribution of free space.
 For horizontal polarization, the gain difference approximated by Eq. \ref{eq:eps_10}.
@@ -586,7 +583,7 @@ For E-plane radiation pattern of dipole antenna in vertical polarization, the ga
 In this paper, three kinds of linearly polarized antennas operating at 2.45 GHz are studied. The human body is loaded
 and simulated in the HFSS simulation software. After loading body model, due to the coupling effect of the human body, the antenna radiation pattern shows a certain orientation and the main lobe gain of the antenna is improved.
 H-plane gain pattern of the IFA in horizontal polarization and vertical polarization show insensitivity to $d$ and the bandwidth of horizontal polarized is always wider than vertical polarized.
-When MIFA placed on body surface of 2.5 cm$<$d$<$5 cm, $S_{11}$ of horizontal polarization is always greater than vertical polarization and the bandwidth is always wider than vertical polarization. The antenna performance is better than vertical polarization of this range of $d$. The radiation pattern of the dipole and MIFA of vertical polarization is not sensitive to $d$.
+When MIFA placed on body surface of $2.5 cm<$$d$$<5 cm$, $S_{11}$ of horizontal polarization is always greater than vertical polarization and the bandwidth is always wider than vertical polarization. The antenna performance is better than vertical polarization of this range of $d$. The radiation pattern of the dipole and MIFA of vertical polarization is not sensitive to $d$.
 When printed dipole placed on the surface of human body in horizontal polarization and vertical polarization, The
 radiation pattern of the dipole antenna in vertical polarization is not sensitive to $d$. The gain difference is great at different distances of the same direction for horizontal polarization.
 
@@ -685,15 +682,3 @@ head for plane-wave exposure from 600 MHz to 3 GHz[J]. \emph{Physics in Medicine
 \end{thebibliography}
 
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
