@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2017.4.28)  10 MAY 2017 11:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.5.13)  13 MAY 2017 10:54
 entering extended mode
-**main.v.1.tex
-(G:\githubrepositioy\main.v.1.tex
+**G:/githubrepositioy/main.v.1.tex
+(G:/githubrepositioy/main.v.1.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 ("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\ieeetran\IEEEtran.cls
@@ -20,7 +20,7 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 366.
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
--- Using DVI output.
+-- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen104
 -- This is a 10 point document.
 \CLASSINFOnormalsizebaselineskip=\dimen105
@@ -106,9 +106,21 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 fg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: dvips.def on input line 91.
- ("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\graphics\dvips.def"
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.
+sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.st
+y"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
@@ -131,13 +143,13 @@ Package: amsbsy 1999/11/29 v1.2d
 "
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count91
+\inf@bad=\count92
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count92
-\leftroot@=\count93
+\uproot@=\count93
+\leftroot@=\count94
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count94
-\DOTSCASE@=\count95
+\classnum@=\count95
+\DOTSCASE@=\count96
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -146,15 +158,15 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen121
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count96
-\c@MaxMatrixCols=\count97
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
 \dotsspace@=\muskip10
-\c@parentequation=\count98
-\dspbrk@lvl=\count99
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
 \tag@help=\toks17
-\row@=\count100
-\column@=\count101
-\maxfields@=\count102
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
 \andhelp@=\toks18
 \eqnshift@=\dimen122
 \alignsep@=\dimen123
@@ -191,7 +203,7 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 ) ("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count103
+\c@float@type=\count104
 \float@exts=\toks21
 \float@box=\box29
 \@float@everytoks=\toks22
@@ -202,6 +214,61 @@ LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
 )
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf.sty
+"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf-bas
+e.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\generic\oberdiek\kvdefineke
+ys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+))
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.st
+y"
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\generic\oberdiek\kvsetkeys.
+sty"
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\generic\oberdiek\etexcmds.s
+ty"
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\generic\oberdiek\ifluatex.s
+ty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\generic\oberdiek\pdftexcmds
+.sty"
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
 ("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\caption\subcaption.st
 y"
 Package: subcaption 2011/10/30 v1.1c Sub-captions (AR)
@@ -233,31 +300,46 @@ footnotesize {#1.}~~ }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent
 \unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfon
 t \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont 
 \footnotesize \box \@tempboxa \hfil }\fi \fi \fi .
-\c@ContinuedFloat=\count104
+\c@ContinuedFloat=\count105
 Package caption Info: float package is loaded.
 )
-\c@subfigure=\count105
-\c@subtable=\count106
+\c@subfigure=\count106
+\c@subtable=\count107
 )
 ("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
 "
 \bigstrutjot=\dimen134
+) (G:\githubrepositioy\main.v.1.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+
+("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen135
+\scratchbox=\box31
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen136
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks24
 )
-No file main.v.1.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+
 
 LaTeX Warning: Citation `1' on page 1 undefined on input line 64.
 
@@ -325,116 +407,398 @@ LaTeX Warning: Reference `sec:conclusion' on page 1 undefined on input line 73.
 
 
 
-LaTeX Warning: Citation `21' on page 1 undefined on input line 78.
+LaTeX Warning: Citation `21' on page 1 undefined on input line 76.
 
 
-LaTeX Warning: Reference `fig:1' on page 1 undefined on input line 78.
+LaTeX Warning: Reference `fig:1' on page 1 undefined on input line 76.
 
 
-LaTeX Warning: Reference `tab:1' on page 1 undefined on input line 78.
+LaTeX Warning: Reference `tab:1' on page 1 undefined on input line 76.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 78.
+LaTeX Font Info:    Try loading font information for U+msa on input line 76.
 ("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+LaTeX Font Info:    Try loading font information for U+msb on input line 76.
 
 ("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 78.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 76.
 
 ("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
-LaTeX Warning: Citation `22' on page 1 undefined on input line 78.
+LaTeX Warning: Citation `22' on page 1 undefined on input line 76.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 79.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 76.
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 79.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 76.
 ("D:\Program Files (x86)\CTeX套装\CTEX\MiKTeX\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 79.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 76.
 
 
-LaTeX Warning: Reference `fig:2' on page 1 undefined on input line 79.
+LaTeX Warning: Reference `fig:2' on page 1 undefined on input line 76.
 
 
 LaTeX Warning: Reference `tab:ant_optimized' on page 1 undefined on input line 
-79.
+76.
 
-[1
+[1{D:/Program Files (x86)/CTeX套装/CTEX/UserData/pdftex/config/pdftex.map{Uni
+code.sfd}{UGBK.sfd}}
 
 
 ]
-File: figs/1a.eps Graphic file (type eps)
- <figs/1a.eps>
-File: figs/1b.eps Graphic file (type eps)
- <figs/1b.eps>
-File: figs/1c.eps Graphic file (type eps)
- <figs/1c.eps>
-File: figs/2a.eps Graphic file (type eps)
- <figs/2a.eps>
-File: figs/2b.eps Graphic file (type eps)
- <figs/2b.eps>
-File: figs/2c.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <figs/1a.eps>
+(epstopdf)                    date: 2017-04-20 16:15:42
+(epstopdf)                    size: 7800 bytes
+(epstopdf)             Output file: <figs/1a-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:37:33
+(epstopdf)                    size: 7409 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/1a-eps-converted-to.pd
+f figs/1a.eps>
+(epstopdf)             \includegraphics on input line 81.
+Package epstopdf Info: Output file is already uptodate.
 
-<figs/2c.eps>
-Underfull \vbox (badness 1168) has occurred while \output is active []
+<figs/1a-eps-converted-to.pdf, id=8, 329.23pt x 173.64874pt>
+File: figs/1a-eps-converted-to.pdf Graphic file (type pdf)
 
-File: figs/4.eps Graphic file (type eps)
+<use figs/1a-eps-converted-to.pdf>
+Package pdftex.def Info: figs/1a-eps-converted-to.pdf used on input line 81.
+(pdftex.def)             Requested size: 123.84283pt x 65.31949pt.
+Package epstopdf Info: Source file: <figs/1b.eps>
+(epstopdf)                    date: 2017-04-24 17:03:50
+(epstopdf)                    size: 683573 bytes
+(epstopdf)             Output file: <figs/1b-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:37:35
+(epstopdf)                    size: 29824 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/1b-eps-converted-to.pd
+f figs/1b.eps>
+(epstopdf)             \includegraphics on input line 86.
+Package epstopdf Info: Output file is already uptodate.
 
-<figs/4.eps>
-File: figs/3a.eps Graphic file (type eps)
- <figs/3a.eps>
-File: figs/3b.eps Graphic file (type eps)
- <figs/3b.eps>
-File: figs/3c.eps Graphic file (type eps)
- <figs/3c.eps>
+<figs/1b-eps-converted-to.pdf, id=9, 310.15875pt x 199.74625pt>
+File: figs/1b-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation `23' on page 2 undefined on input line 204.
+<use figs/1b-eps-converted-to.pdf>
+Package pdftex.def Info: figs/1b-eps-converted-to.pdf used on input line 86.
+(pdftex.def)             Requested size: 123.84283pt x 79.75383pt.
+Package epstopdf Info: Source file: <figs/1c.eps>
+(epstopdf)                    date: 2017-04-20 16:14:59
+(epstopdf)                    size: 5803 bytes
+(epstopdf)             Output file: <figs/1c-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:37:37
+(epstopdf)                    size: 6246 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/1c-eps-converted-to.pd
+f figs/1c.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/1c-eps-converted-to.pdf, id=10, 169.63374pt x 119.44624pt>
+File: figs/1c-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/1c-eps-converted-to.pdf>
+Package pdftex.def Info: figs/1c-eps-converted-to.pdf used on input line 91.
+(pdftex.def)             Requested size: 123.84283pt x 87.2023pt.
+Package epstopdf Info: Source file: <figs/2a.eps>
+(epstopdf)                    date: 2017-04-22 09:26:26
+(epstopdf)                    size: 76410 bytes
+(epstopdf)             Output file: <figs/2a-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:37:38
+(epstopdf)                    size: 15285 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/2a-eps-converted-to.pd
+f figs/2a.eps>
+(epstopdf)             \includegraphics on input line 145.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/2a-eps-converted-to.pdf, id=11, 794.97pt x 614.295pt>
+File: figs/2a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/2a-eps-converted-to.pdf>
+Package pdftex.def Info: figs/2a-eps-converted-to.pdf used on input line 145.
+(pdftex.def)             Requested size: 123.84283pt x 95.69278pt.
+Package epstopdf Info: Source file: <figs/2b.eps>
+(epstopdf)                    date: 2017-04-20 16:15:07
+(epstopdf)                    size: 18830 bytes
+(epstopdf)             Output file: <figs/2b-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:37:39
+(epstopdf)                    size: 15242 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/2b-eps-converted-to.pd
+f figs/2b.eps>
+(epstopdf)             \includegraphics on input line 150.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/2b-eps-converted-to.pdf, id=12, 547.04375pt x 422.57875pt>
+File: figs/2b-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/2b-eps-converted-to.pdf>
+Package pdftex.def Info: figs/2b-eps-converted-to.pdf used on input line 150.
+(pdftex.def)             Requested size: 123.84283pt x 95.66287pt.
+Package epstopdf Info: Source file: <figs/2c.eps>
+(epstopdf)                    date: 2017-04-22 09:29:42
+(epstopdf)                    size: 90779 bytes
+(epstopdf)             Output file: <figs/2c-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=figs/2c-eps-converted-to.pd
+f figs/2c.eps>
+(epstopdf)             \includegraphics on input line 155.
+runsystem(epstopdf --outfile=figs/2c-eps-converted-to.pdf figs/2c.eps)...execut
+ed (allowed).
+
+Package epstopdf Info: Result file: <figs/2c-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:54:05
+(epstopdf)                    size: 20644 bytes.
+
+<figs/2c-eps-converted-to.pdf, id=13, 794.97pt x 614.295pt>
+File: figs/2c-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/2c-eps-converted-to.pdf>
+Package pdftex.def Info: figs/2c-eps-converted-to.pdf used on input line 155.
+(pdftex.def)             Requested size: 123.84283pt x 95.69278pt.
+Package epstopdf Info: Source file: <figs/4.eps>
+(epstopdf)                    date: 2017-04-25 17:42:38
+(epstopdf)                    size: 16152 bytes
+(epstopdf)             Output file: <figs/4-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=figs/4-eps-converted-to.pdf
+ figs/4.eps>
+(epstopdf)             \includegraphics on input line 173.
+runsystem(epstopdf --outfile=figs/4-eps-converted-to.pdf figs/4.eps)...executed
+ (allowed).
+
+Package epstopdf Info: Result file: <figs/4-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:54:07
+(epstopdf)                    size: 12442 bytes.
+
+<figs/4-eps-converted-to.pdf, id=14, 574.145pt x 228.855pt>
+File: figs/4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/4-eps-converted-to.pdf>
+Package pdftex.def Info: figs/4-eps-converted-to.pdf used on input line 173.
+(pdftex.def)             Requested size: 206.39685pt x 82.269pt.
+Package epstopdf Info: Source file: <figs/3a.eps>
+(epstopdf)                    date: 2017-04-20 16:14:25
+(epstopdf)                    size: 24576 bytes
+(epstopdf)             Output file: <figs/3a-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=figs/3a-eps-converted-to.pd
+f figs/3a.eps>
+(epstopdf)             \includegraphics on input line 181.
+runsystem(epstopdf --outfile=figs/3a-eps-converted-to.pdf figs/3a.eps)...execut
+ed (allowed).
+
+Package epstopdf Info: Result file: <figs/3a-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:54:08
+(epstopdf)                    size: 18550 bytes.
+
+<figs/3a-eps-converted-to.pdf, id=15, 511.9125pt x 485.815pt>
+File: figs/3a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/3a-eps-converted-to.pdf>
+Package pdftex.def Info: figs/3a-eps-converted-to.pdf used on input line 181.
+(pdftex.def)             Requested size: 123.84283pt x 117.5246pt.
+Package epstopdf Info: Source file: <figs/3b.eps>
+(epstopdf)                    date: 2017-04-20 16:14:24
+(epstopdf)                    size: 13912 bytes
+(epstopdf)             Output file: <figs/3b-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=figs/3b-eps-converted-to.pd
+f figs/3b.eps>
+(epstopdf)             \includegraphics on input line 186.
+runsystem(epstopdf --outfile=figs/3b-eps-converted-to.pdf figs/3b.eps)...execut
+ed (allowed).
+
+Package epstopdf Info: Result file: <figs/3b-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:54:09
+(epstopdf)                    size: 11436 bytes.
+
+<figs/3b-eps-converted-to.pdf, id=16, 361.35pt x 279.0425pt>
+File: figs/3b-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/3b-eps-converted-to.pdf>
+Package pdftex.def Info: figs/3b-eps-converted-to.pdf used on input line 186.
+(pdftex.def)             Requested size: 123.84283pt x 95.63535pt.
+Package epstopdf Info: Source file: <figs/3c.eps>
+(epstopdf)                    date: 2017-04-25 17:42:38
+(epstopdf)                    size: 16213 bytes
+(epstopdf)             Output file: <figs/3c-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=figs/3c-eps-converted-to.pd
+f figs/3c.eps>
+(epstopdf)             \includegraphics on input line 191.
+runsystem(epstopdf --outfile=figs/3c-eps-converted-to.pdf figs/3c.eps)...execut
+ed (allowed).
+
+Package epstopdf Info: Result file: <figs/3c-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:54:11
+(epstopdf)                    size: 12790 bytes.
+
+<figs/3c-eps-converted-to.pdf, id=17, 574.145pt x 389.455pt>
+File: figs/3c-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/3c-eps-converted-to.pdf>
+Package pdftex.def Info: figs/3c-eps-converted-to.pdf used on input line 191.
+(pdftex.def)             Requested size: 180.60315pt x 122.50664pt.
 
 
-LaTeX Warning: Reference `fig:4' on page 2 undefined on input line 204.
+LaTeX Warning: Citation `23' on page 2 undefined on input line 200.
 
 
-LaTeX Warning: Citation `24' on page 2 undefined on input line 208.
+LaTeX Warning: Reference `fig:4' on page 2 undefined on input line 200.
 
 
-LaTeX Warning: Reference `tab:2' on page 2 undefined on input line 208.
+LaTeX Warning: Citation `24' on page 2 undefined on input line 204.
 
 
-LaTeX Warning: Reference `fig:3c' on page 2 undefined on input line 211.
+LaTeX Warning: Reference `tab:2' on page 2 undefined on input line 204.
 
 
-LaTeX Warning: Reference `fig:3a' on page 2 undefined on input line 211.
+LaTeX Warning: Reference `fig:3c' on page 2 undefined on input line 207.
 
 
-LaTeX Warning: Reference `fig:3b' on page 2 undefined on input line 211.
-
-[2]
-
-LaTeX Warning: Reference `fig:5' on page 3 undefined on input line 236.
+LaTeX Warning: Reference `fig:3a' on page 2 undefined on input line 207.
 
 
-LaTeX Warning: Reference `fig:3a' on page 3 undefined on input line 236.
+LaTeX Warning: Reference `fig:3b' on page 2 undefined on input line 207.
+
+[2 <G:/githubrepositioy/figs/1a-eps-converted-to.pdf> <G:/githubrepositioy/figs
+/1b-eps-converted-to.pdf> <G:/githubrepositioy/figs/1c-eps-converted-to.pdf> <G
+:/githubrepositioy/figs/2a-eps-converted-to.pdf> <G:/githubrepositioy/figs/2b-e
+ps-converted-to.pdf> <G:/githubrepositioy/figs/2c-eps-converted-to.pdf> <G:/git
+hubrepositioy/figs/4-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:5' on page 3 undefined on input line 231.
 
 
-LaTeX Warning: Reference `fig:3b' on page 3 undefined on input line 236.
+LaTeX Warning: Reference `fig:3a' on page 3 undefined on input line 231.
 
 
-LaTeX Warning: Reference `eq:eps_1' on page 3 undefined on input line 236.
+LaTeX Warning: Reference `fig:3b' on page 3 undefined on input line 231.
 
-File: figs/5a.eps Graphic file (type eps)
-<figs/5a.eps>
-File: figs/5b.eps Graphic file (type eps)
- <figs/5b.eps>
-File: figs/6a.eps Graphic file (type eps)
- <figs/6a.e
+
+LaTeX Warning: Reference `fig:5b' on page 3 undefined on input line 231.
+
+
+LaTeX Warning: Reference `eq:eps_1' on page 3 undefined on input line 231.
+
+Package epstopdf Info: Source file: <figs/5a.eps>
+(epstopdf)                    date: 2017-04-20 16:14:22
+(epstopdf)                    size: 18540 bytes
+(epstopdf)             Output file: <figs/5a-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=figs/5a-eps-converted-to.pd
+f figs/5a.eps>
+(epstopdf)             \includegraphics on input line 241.
+runsystem(epstopdf --outfile=figs/5a-eps-converted-to.pdf figs/5a.eps)...execut
+ed (allowed).
+
+Package epstopdf Info: Result file: <figs/5a-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:54:12
+(epstopdf)                    size: 14861 bytes.
+<figs/5a-eps-converted-to.pdf, id=122, 491.8375pt x 379.4175pt>
+File: figs/5a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/5a-eps-converted-to.pdf>
+Package pdftex.def Info: figs/5a-eps-converted-to.pdf used on input line 241.
+(pdftex.def)             Requested size: 206.39685pt x 159.2211pt.
+Package epstopdf Info: Source file: <figs/5b.eps>
+(epstopdf)                    date: 2017-04-20 16:14:21
+(epstopdf)                    size: 18124 bytes
+(epstopdf)             Output file: <figs/5b-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=figs/5b-eps-converted-to.pd
+f figs/5b.eps>
+(epstopdf)             \includegraphics on input line 246.
+runsystem(epstopdf --outfile=figs/5b-eps-converted-to.pdf figs/5b.eps)...execut
+ed (allowed).
+
+Package epstopdf Info: Result file: <figs/5b-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:54:13
+(epstopdf)                    size: 14536 bytes.
+
+<figs/5b-eps-converted-to.pdf, id=123, 476.78125pt x 368.37625pt>
+File: figs/5b-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/5b-eps-converted-to.pdf>
+Package pdftex.def Info: figs/5b-eps-converted-to.pdf used on input line 246.
+(pdftex.def)             Requested size: 206.39685pt x 159.47229pt.
+Package epstopdf Info: Source file: <figs/6a.eps>
+(epstopdf)                    date: 2017-04-20 16:14:22
+(epstopdf)                    size: 18540 bytes
+(epstopdf)             Output file: <figs/6a-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=figs/6a-eps-converted-to.pd
+f figs/6a.eps>
+(epstopdf)             \includegraphics on input line 257.
+runsystem(epstopdf --outfile=figs/6a-eps-converted-to.pdf figs/6a.eps)...execut
+ed (allowed).
+
+Package epstopdf Info: Result file: <figs/6a-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:54:15
+(epstopdf)                    size: 14861 bytes.
+
+<figs/6a-eps-converted-to.pdf, id=124, 491.8375pt x 379.4175pt>
+File: figs/6a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/6a-eps-converted-to.pdf>
+Package pdftex.def Info: figs/6a-eps-converted-to.pdf used on input line 257.
+(pdftex.def)             Requested size: 113.52063pt x 87.57101pt.
+Package epstopdf Info: Source file: <figs/6b.eps>
+(epstopdf)                    date: 2017-04-20 16:14:21
+(epstopdf)                    size: 18124 bytes
+(epstopdf)             Output file: <figs/6b-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=figs/6b-eps-converted-to.pd
+f figs/6b.eps>
+(epstopdf)             \includegraphics on input line 262.
+runsystem(epstopdf --outfile=figs/6b-eps-converted-to.pdf figs/6b.eps)...execut
+ed (allowed).
+
+Package epstopdf Info: Result file: <figs/6b-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-13 10:54:16
+(epstopdf)                    size: 14536 bytes.
+
+<figs/6b-eps-converted-to.pdf, id=125, 476.78125pt x 368.37625pt>
+File: figs/6b-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/6b-eps-converted-to.pdf>
+Package pdftex.def Info: figs/6b-eps-converted-to.pdf used on input line 262.
+(pdftex.def)             Requested size: 113.52063pt x 87.70947pt.
+
+
+LaTeX Warning: File `figs/6e.eps' not found on input line 267.
+
+Package epstopdf Info: Source file: <figs/6e.eps>
+(epstopdf)             Output file: <figs/6e-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=figs/6e-eps-converted-to.pd
+f figs/6e.eps>
+(epstopdf)             \includegraphics on input line 267.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `figs/6e-eps-converted-to.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 ...degraphics[width=\textwidth]{figs/6e.eps}
+                                                  
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.267 ...degraphics[width=\textwidth]{figs/6e.eps}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 4430 strings out of 495354
+ 70526 string characters out of 3182123
+ 137870 words of memory out of 3000000
+ 7495 multiletter control sequences out of 15000+200000
+ 44259 words of font info for 99 fonts, out of 3000000 for 9000
+ 17 hyphenation exceptions out of 8191
+ 42i,9n,40p,1098b,437s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
